@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
   <meta charset="utf-8">
@@ -15,7 +15,7 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <h1 class="text-center py-5">MY SITE</h1>
+          <h1 class="text-center py-5">MY SITE BOOTSTRAP</h1>
         </div>
       </div>
     </div>
@@ -61,7 +61,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="bg-info mb-4 col-xxl-8 col-xl-9">
+      <div class="bg-dark text-light mb-4 col-xxl-8 col-xl-9">
         <h2>Статьи</h2>
         <div class="accordion" id="accordion">
           <div class="accordion-item">
@@ -204,9 +204,9 @@
           </div>
         </div>
       </div>
-      <div class="mb-4 col-xxl-2 col-xl-3 col-lg-6 order-xl-first">
+      <div class="bg-dark text-light mb-4 col-xxl-2 col-xl-3 col-lg-6 order-xl-first">
         <h2>Карусель</h2>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="assets/IMG/img1.jpg" class="d-block w-100" alt="Невозможно отобразить картинку">
@@ -217,26 +217,68 @@
             <div class="carousel-item">
               <img src="assets/IMG/img3.jpg" class="d-block w-100" alt="Невозможно отобразить картинку">
             </div>
+            <div class="carousel-item">
+              <img src="assets/IMG/img4.jpg" class="d-block w-100" alt="Невозможно отобразить картинку">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/IMG/img5.jpg" class="d-block w-100" alt="Невозможно отобразить картинку">
+            </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
       </div>
-      <div class="text-light mb-4 col-xxl-2 col-xl-12 col-lg-6 "><span>RIGHT</span></div>
+      <div class="bg-dark text-light mb-4 col-xxl-2 col-xl-12 col-lg-6 ">
+        <h2>Форма</h2>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="surname" class="form-label">Фамилия</label>
+            <input type="text" class="form-control" id="surname">
+          </div>
+          <div class="col-md-6">
+            <label for="name" class="form-label">Имя</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="col-md-6">
+            <label for="login" class="form-label">Логин</label>
+            <input type="text" class="form-control" id="login">
+          </div>
+          <div class="col-md-6">
+            <label for="password" class="form-label">Пароль</label>
+            <input type="password" class="form-control" id="password">
+          </div>
+          <div class="col-6">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="col-6">
+            <label for="choice" class="form-label">Пол</label>
+            <select id="choice" class="form-select">
+              <option value="male">Муж</option>
+              <option value="female">Жен</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <label for="address" class="form-label">Адрес</label>
+            <input type="text" class="form-control" id="address">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Отправить</button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
   <div class="bg-dark text-light py-5">
     <div class="container">
       <div class="row">
-        <div class="col"><span>FOOTER</span></div>
+        <div class="text-center col"><span>&#169;Александр Рябенко</span></div>
       </div>
     </div>
   </div>
